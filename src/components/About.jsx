@@ -10,13 +10,13 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Обо мне</h2>
+        <h2 className={`${styles.sectionHeadText} mb-10`}>Обо мне</h2>
       </motion.div>
-      <div class="flex flex-row flex-wrap w-full justify-between">
+      <div class="about-block flex flex-row flex-wrap w-full justify-between">
       
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-4 text-[#665875] font-bold max-w-lg text-[17px]leading-[30px]'
+          className='about-block-text mt-4 text-[#665875] font-bold max-w-lg text-[17px]leading-[30px]'
         >
           Я обожаю животных и являюсь профессиональным грумером. 
           В моей работе я стараюсь создать комфортные и безопасные условия для домашних питомцев, чтобы они выглядели и чувствовали себя прекрасно. 
@@ -30,7 +30,7 @@ const About = () => {
           variants={fadeIn("", "", 0.5, 2)}
           className="mt-10"
         >
-          <img class="lg:max-w-lg lg:w-full sm:w-1/2 rounded-3xl shadow-2xl" src="src/assets/catsdogs.jpg" alt="Cats and dogs" />
+          <img class="about-block-img lg:max-w-lg lg:w-full rounded-3xl shadow-2xl" src="src/assets/catsdogs.jpg" alt="Собаки и кошки" />
         </motion.div>
         
         

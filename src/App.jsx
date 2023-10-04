@@ -13,7 +13,9 @@ const App = () => {
         <About />
         <Services />
         <Slider />
-        <Contact />
+        <div className='contact-block' >
+          <Contact />
+        </div>
       </div>
     </BrowserRouter>
   );

@@ -40,11 +40,11 @@ const Hero = () => {
         
           
           </div>
-          <h1 className={`${styles.heroSubText} mt-2 text-[#665875]-100` }>
-            Я сертифицированный специалист,<br className='sm:block hidden' />
+          <p className={`${styles.heroSubText} mt-2 text-[#665875]-100` }>
+            Я - сертифицированный специалист,<br className='sm:block hidden' />
             занимаюсь профессиональной <br className='sm:block hidden' />
             стрижкой собак и кошек
-          </h1>
+          </p>
         </div>
       </div>
 
