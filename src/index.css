@@ -277,6 +277,7 @@ button::after {
   left: 50%;
   transform: translate(-50%, -50%);
   animation: ring 1.5s infinite;
+  -webkit-animation-fill-mode: forwards;
 }
 
 button:hover::after, button:focus::after {
